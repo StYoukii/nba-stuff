@@ -1,0 +1,22 @@
+<div id="game-header" class="d-flex flex-column">
+
+  <div class="d-flex justify-content-between">
+    <h2 class="d-flex align-items-center justify-content-center">
+      <img class="nba-logo" src="{{ homeTeam.teamLogoPath }}">{{ homeTeam.teamName }}
+    </h2>
+
+    <h2 class="d-flex align-items-center justify-content-center">
+      {{ visitorTeam.teamName }}<img class="nba-logo" src="{{ visitorTeam.teamLogoPath }}">
+    </h2>
+  </div>
+
+  <div class="d-flex justify-content-between">
+    <app-last-five-games [team]=homeTeam></app-last-five-games>
+    <app-last-five-games [team]=visitorTeam></app-last-five-games>
+  </div>
+
+  <div class="d-flex justify-content-between">
+    <app-common-team-roster [team]=homeTeam></app-common-team-roster>
+    <app-common-team-roster [team]=visitorTeam></app-common-team-roster>
+  </div>
+</div>

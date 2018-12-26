@@ -1,0 +1,9 @@
+<ul>
+  <li *ngFor="let game of dailyGame">
+    <a class="d-flex align-items-center justify-content-between" [routerLink]="['/game', game.homeTeam.teamId, game.visitorTeam.teamId]" routerLinkActive="active">
+      <img class="nba-logo" src="{{ game.homeTeam.teamLogoPath }}">
+      <span>{{ game.homeTeam.teamAbbreviation }} - {{ game.visitorTeam.teamAbbreviation }}</span>
+      <img class="nba-logo" src="{{ game.visitorTeam.teamLogoPath }}">
+    </a>
+  </li>
+</ul>

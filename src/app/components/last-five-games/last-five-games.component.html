@@ -1,0 +1,19 @@
+<table>
+  <thead>
+    <tr>
+      <th colspan="0">All Locations</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let teamGameLog of teamGameLogs">
+    <td>{{ teamGameLog.gameDate }}</td>
+    <td>Team Home</td>
+    <td>Score Home</td>
+    <td>Team Road</td>
+    <td>Score Road</td>
+    <td>{{ teamGameLog.gameDate }}</td>
+    <td>{{ teamGameLog.winLoose }}</td>
+  </tr>
+  </tbody>
+</table>
+

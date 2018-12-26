@@ -1,0 +1,12 @@
+@import "../../../assets/scss/colors";
+
+#app-top-bar {
+  height: 60px;
+  width: 100vw;
+  background-color: $blue;
+
+  .nba-logo {
+    height: 40px;
+    margin-left: 1rem;
+  }
+}

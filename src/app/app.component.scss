@@ -1,0 +1,28 @@
+@import "../assets/scss/colors";
+
+main {
+  height: calc(100vh - 60px);
+  display: flex;
+
+  #left-bar {
+    width: 15vw;
+    max-height: 100%;
+    padding: 1rem;
+    overflow: auto;
+    border-right: 1px solid $light-black;
+  }
+
+  #main-container {
+    width: 85vw;
+    max-height: 100%;
+    padding: 0 1rem;
+    overflow: auto;
+  }
+}
+
+// TODO Supprimer le todo
+.to-do {
+  margin-top: 2rem;
+  background-color: rgba(185, 185, 185, 0.26);
+  opacity: 0.5;
+}

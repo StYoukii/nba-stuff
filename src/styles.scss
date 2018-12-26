@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import "assets/scss/theme";
+
+@import "assets/scss/reset";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Quicksand, sans-serif;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+h2 {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
